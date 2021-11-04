@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int i, b;
+int i, a;
 
 int main()
 {
 	i = 1;
-	b = ++i * i++;
-	cout << b << endl;
+	a = ++i * i++;
+	cout << a << endl;
 	return 0;
 }
