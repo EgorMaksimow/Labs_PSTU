@@ -8,6 +8,6 @@ int main()
 {
 	i = 1;
 	a = ++i * i++;
-	cout << a << endl;
+	cout << a;
 	return 0;
 }
